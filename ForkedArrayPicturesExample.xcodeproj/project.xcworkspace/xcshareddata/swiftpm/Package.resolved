@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "fork",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/0xLeif/Fork",
+      "state" : {
+        "revision" : "8fff92e04bab631fee8f6f19d5d1d807d0670845",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}

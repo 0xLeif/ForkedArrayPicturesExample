@@ -11,6 +11,7 @@
 		290F0B3528B956C4003086E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290F0B3428B956C4003086E4 /* ContentView.swift */; };
 		290F0B3728B956C5003086E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290F0B3628B956C5003086E4 /* Assets.xcassets */; };
 		290F0B3A28B956C5003086E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290F0B3928B956C5003086E4 /* Preview Assets.xcassets */; };
+		290F0B4228B956DE003086E4 /* Fork in Frameworks */ = {isa = PBXBuildFile; productRef = 290F0B4128B956DE003086E4 /* Fork */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				290F0B4228B956DE003086E4 /* Fork in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = ForkedArrayPicturesExample;
+			packageProductDependencies = (
+				290F0B4128B956DE003086E4 /* Fork */,
+			);
 			productName = ForkedArrayPicturesExample;
 			productReference = 290F0B2F28B956C4003086E4 /* ForkedArrayPicturesExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 290F0B2628B956C4003086E4;
+			packageReferences = (
+				290F0B4028B956DE003086E4 /* XCRemoteSwiftPackageReference "Fork" */,
+			);
 			productRefGroup = 290F0B3028B956C4003086E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -337,6 +345,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		290F0B4028B956DE003086E4 /* XCRemoteSwiftPackageReference "Fork" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xLeif/Fork";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		290F0B4128B956DE003086E4 /* Fork */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 290F0B4028B956DE003086E4 /* XCRemoteSwiftPackageReference "Fork" */;
+			productName = Fork;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 290F0B2728B956C4003086E4 /* Project object */;
 }
